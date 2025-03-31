@@ -65,32 +65,32 @@ Continuous Operation: After displaying the weather information, the program prom
 
 ## Usage
 
-  -  Run the Program:
+  -  **Run the Program:**
 
     python weather_program.py
 
-  - Follow On-Screen Prompts:
+  - **Follow On-Screen Prompts:**
 
-    - Enter Your API Key:
+    - **Enter Your API Key:**
 
           Type in your API key and press Enter.
 
-    - To search by city and state:
+    - **To search by city and state:**
 
           Type city and press Enter.
           Enter the city name when prompted.
           Enter the 2-letter state code when prompted.
 
-    -	To search by ZIP code:
+    - **To search by ZIP code:**
 
             Type zip and press Enter.
             Enter the 5-digit ZIP code when prompted.
 
-    -	To exit the program:
+    - **To exit the program:**
         
             Type q and press Enter.
 
-  - View Weather Information:
+  - **View Weather Information:**
 
         The program will display the current weather details for the specified location.
 
