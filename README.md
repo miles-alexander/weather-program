@@ -1,2 +1,120 @@
-# weather-program
-A command-line application that provides current weather information for U.S. cities using the OpenWeatherMap API. Users can search by city/state or ZIP code and receive real-time details like temperature, humidity, pressure, and conditions.
+# Weather Program
+
+## Overview
+
+The Weather Program is a command-line application that provides current weather information for U.S. cities. Users can retrieve weather data by entering either the city and state, or the ZIP code. The program fetches data from the OpenWeatherMap API and displays details such as temperature, humidity, pressure, and weather descriptions.
+
+
+
+## Authors
+
+- [@miles-alexander](https://www.github.com/miles-alexander)
+
+
+## Features
+
+Flexible Location Input: Users can choose to search for weather information using:
+
+    o	City and State: Enter the city name along with the state code.
+    o	ZIP Code: Enter the 5-digit ZIP code of the desired location.
+
+
+Detailed Weather Information: For the specified location, the program displays:
+
+    o  	Current temperature
+    o	Feels-like temperature
+    o	High and low temperatures
+    o	Atmospheric pressure
+    o	Humidity levels
+    o	Weather description (e.g., clear sky, rain)
+
+Continuous Operation: After displaying the weather information, the program prompts the user for another search or to quit, allowing multiple queries in a single session.
+
+
+
+## Run Locally
+
+Clone the Repository:
+
+```bash
+  git clone https://github.com/miles-alexander/weather-program.git
+```
+
+Go to the Project Directory:
+
+```bash
+  cd weather-program
+```
+
+Install Dependencies:
+
+```bash
+  pip install requests
+```
+
+Obtain an OpenWeatherMap API Key:
+
+```bash
+  o	Register for a free account at OpenWeatherMap.
+  o	Navigate to the API keys section in your account and generate a new key.
+  o	Replace the placeholder your_api_key_here in the script with your actual API key.
+
+```
+
+
+## Usage
+
+  -  Run the Program:
+
+    python weather_program.py
+
+  - Follow On-Screen Prompts:
+
+    - To search by city and state:
+
+          Type city and press Enter.
+          Enter the city name when prompted.
+          Enter the 2-letter state code when prompted.
+
+    -	To search by ZIP code:
+
+            Type zip and press Enter.
+            Enter the 5-digit ZIP code when prompted.
+
+    -	To exit the program:
+        
+            Type q and press Enter.
+
+  - View Weather Information:
+
+        The program will display the current weather details for the specified location.
+
+## Example 
+```bash
+Welcome to the Weather Program!
+Please type 'city' to search by city and state, 'zip' to search by ZIP code, or 'q' to quit: city
+Please enter city name: Winter Garden
+Please enter state code: FL
+The current temperature in Winter Garden is: 75°F
+Feels Like: 73°F
+High Temp: 78°F
+Low Temp: 70°F
+Pressure: 1015hPa
+Humidity: 60%
+Description: clear sky
+```
+
+## Error Handling
+
+    •	Invalid Input: If the user enters an unrecognized command, the program prompts for a valid   response.
+    •	City/ZIP Not Found: If the entered location is not found, the program notifies the user and prompts for another input.
+    •	Network Issues: The program handles HTTP errors and connection issues gracefully, informing the user of any problems.
+
+
+
+
+
+## Acknowledgements
+
+ - OpenWeatherMap for providing the weather data API.
+
