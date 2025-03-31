@@ -35,25 +35,25 @@ Continuous Operation: After displaying the weather information, the program prom
 
 ## Run Locally
 
-Clone the Repository:
+- **Clone the Repository:**
 
 ```bash
   git clone https://github.com/miles-alexander/weather-program.git
 ```
 
-Go to the Project Directory:
+- **Go to the Project Directory:**
 
 ```bash
   cd weather-program
 ```
 
-Install Dependencies:
+- **Install Dependencies:**
 
 ```bash
   pip install requests
 ```
 
-Obtain an OpenWeatherMap API Key:
+-**Obtain an OpenWeatherMap API Key:**
 
 ```bash
   •	Register for a free account at OpenWeatherMap.
