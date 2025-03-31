@@ -53,7 +53,7 @@ Continuous Operation: After displaying the weather information, the program prom
   pip install requests
 ```
 
--**Obtain an OpenWeatherMap API Key:**
+- **Obtain an OpenWeatherMap API Key:**
 
 ```bash
   •	Register for a free account at OpenWeatherMap.
