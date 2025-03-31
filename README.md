@@ -1,3 +1,4 @@
+
 # Weather Program
 
 ## Overview
@@ -57,7 +58,8 @@ Obtain an OpenWeatherMap API Key:
 ```bash
   o	Register for a free account at OpenWeatherMap.
   o	Navigate to the API keys section in your account and generate a new key.
-  o	The program will prompt you to input your API key upon running the script.
+  o	Upon running the script, you will be prompted to enter your OpenWeather API key directly in the terminal.
+
 ```
 
 
@@ -68,6 +70,10 @@ Obtain an OpenWeatherMap API Key:
     python weather_program.py
 
   - Follow On-Screen Prompts:
+
+    - Enter Your API Key:
+
+          Type in your API key and press Enter.
 
     - To search by city and state:
 
