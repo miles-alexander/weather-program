@@ -57,8 +57,7 @@ Obtain an OpenWeatherMap API Key:
 ```bash
   o	Register for a free account at OpenWeatherMap.
   o	Navigate to the API keys section in your account and generate a new key.
-  o	Replace the placeholder your_api_key_here in the script with your actual API key.
-
+  o	The program will prompt you to input your API key upon running the script.
 ```
 
 
