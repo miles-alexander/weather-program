@@ -16,18 +16,18 @@ The Weather Program is a command-line application that provides current weather 
 
 Flexible Location Input: Users can choose to search for weather information using:
 
-    o	City and State: Enter the city name along with the state code.
-    o	ZIP Code: Enter the 5-digit ZIP code of the desired location.
+    •	City and State: Enter the city name along with the state code.
+    •	ZIP Code: Enter the 5-digit ZIP code of the desired location.
 
 
 Detailed Weather Information: For the specified location, the program displays:
 
-    o  	Current temperature
-    o	Feels-like temperature
-    o	High and low temperatures
-    o	Atmospheric pressure
-    o	Humidity levels
-    o	Weather description (e.g., clear sky, rain)
+    •  	Current temperature
+    •	Feels-like temperature
+    •	High and low temperatures
+    •	Atmospheric pressure
+    •	Humidity levels
+    •	Weather description (e.g., clear sky, rain)
 
 Continuous Operation: After displaying the weather information, the program prompts the user for another search or to quit, allowing multiple queries in a single session.
 
@@ -56,9 +56,9 @@ Install Dependencies:
 Obtain an OpenWeatherMap API Key:
 
 ```bash
-  o	Register for a free account at OpenWeatherMap.
-  o	Navigate to the API keys section in your account and generate a new key.
-  o	Upon running the script, you will be prompted to enter your OpenWeather API key directly in the terminal.
+  •	Register for a free account at OpenWeatherMap.
+  •	Navigate to the API keys section in your account and generate a new key.
+  •	Upon running the script, you will be prompted to enter your OpenWeather API key directly in the terminal.
 
 ```
 
