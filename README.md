@@ -1,4 +1,3 @@
-
 # Weather Program 🌦️
 
 ## Overview
